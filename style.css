@@ -37,7 +37,7 @@ a {
     font-size: 16px;
     font-weight: bolder;
 }
-p {
+#contact {
     color: rgb(90, 43, 90);
     text-align: left;
     font-size: 16px;
@@ -81,3 +81,39 @@ height: 35px;
 padding: 3px;
 }
 
+.card-deck {
+margin-top: 180px;
+margin-left: 80px;
+z-index: 100;
+}
+
+.card {
+    width: 12rem;
+    height: 18rem;
+    border: solid rgb(77, 35, 77);
+    background-color: rgb(247, 240, 240);
+}
+
+.card-text {
+    font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.card-title {
+    color:rgb(126, 123, 123);
+    font-weight: bolder;
+}
+
+.background-color {
+    background-color: silver;
+   width: 100%;
+    min-height: 100vh;
+}
+
+.card-body {
+    border-top: solid gray;
+}
+
+
+
+    
